@@ -1,0 +1,106 @@
+.menue {
+    width: 320px;
+    height: auto;
+    padding: 18.73px 24px 32px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 
+        -2px 0 4px 0 rgba(69, 79, 126, 2%),
+        16px 0 52px rgba(14, 24, 80, 20%);
+    font-family: TT Lakes, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menue__button {
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.menue__button:hover {
+    opacity: 0.7;
+}
+
+.menue__upper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 46.27px;
+}
+.menue__burger {
+    margin-right: 16.73px;
+}
+.menue__logo {
+    margin-right: 78.27px;
+}
+
+
+
+.menue__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    margin-bottom: 268px;
+}
+.menue__list-item {
+    color: #1B1C21;
+    transition: 0.3s;
+}
+
+.menue__list-item:hover {
+    color: #7E7E82;
+}
+
+.menue__list-item--active {
+    color: #7E7E82;
+    display: flex;
+    align-items: center;
+}
+
+.menue__list-item--active::before {
+    content: "";
+    background-image: url(/Img/highlight.svg);
+    margin-left: -24px;
+    margin-right: 20px;
+    width: 4px;
+    height: 32px;
+
+}
+
+
+.menue__bottom-links {
+    display: flex;
+    column-gap: 16px;
+    margin-bottom: 16px;
+}
+
+.menue__email {
+    color: #1B1C21;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.menue__email:hover {
+    text-decoration: underline;
+}
+
+.menue__phone-number {
+    color: #1B1C21;
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menue__phone-number:hover {
+    text-decoration: underline;
+}
+
+.menue__langs {
+    margin-top: 40px;
+}
+.language--active{
+    color: #7E7E82;
+}
+
+.language:hover {
+    color: #7E7E82;
+}
