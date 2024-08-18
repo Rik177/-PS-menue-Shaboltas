@@ -58,7 +58,7 @@
 
 .menue__list-item--active::before {
     content: "";
-    background-image: url(/Img/highlight.svg);
+    background-image: url(https://rik177.github.io/-PS-menue-Shaboltas/Img/highlight.svg);
     margin-left: -24px;
     margin-right: 20px;
     width: 4px;
